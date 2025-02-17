@@ -1,0 +1,4 @@
+git status                      # Check changes
+git add .                        # Add all new files
+git commit -m "Added more project files"  # Commit changes
+git push origin main             # Push to GitHub
