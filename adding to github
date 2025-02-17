@@ -2,3 +2,4 @@ git status                      # Check changes
 git add .                        # Add all new files
 git commit -m "Added more project files"  # Commit changes
 git push origin main             # Push to GitHub
+http://127.0.0.1:8000/docs#/default/fetch_data_fetch_data__symbol__get
