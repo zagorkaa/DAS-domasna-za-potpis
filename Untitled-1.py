@@ -7,7 +7,7 @@ app = FastAPI()
 
 print("Starting Kafka Producer...")
 producer = KafkaProducer(
-    bootstrap_servers="localhost:9092",  # Ensure this is correct
+    bootstrap_servers="localhost:9092", 
     value_serializer=lambda v: json.dumps(v).encode("utf-8"),
 )
 
