@@ -12,7 +12,7 @@ producer = KafkaProducer(
 )
 
 API_URL = "https://www.alphavantage.co/query"
-API_KEY = "YOUR_API_KEY"
+API_KEY = "SOU9O5LJWN2GY2J5"
 
 @app.get("/fetch-data/{symbol}")
 def fetch_data(symbol: str):
